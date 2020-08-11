@@ -93,7 +93,7 @@ export default (props)=>{
         </div>
       </div>   
     { countryStatus ? 
-    <div style={{ }} >
+    <div style={{marginTop:"10px" }} >
     <Card header={`Confirmed (${countryStatus.country})`}
     backColor="#b58707"
      prop1={countryStatus.newConfirmed} 

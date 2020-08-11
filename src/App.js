@@ -35,7 +35,7 @@ const App =()=>{
 
     
 
-    <div style={{}} >
+    <div style={{marginTop:"10px"}} >
   
     {  status ? <GlobalSummary GlobSum={status}  >  </GlobalSummary> : null}
     
