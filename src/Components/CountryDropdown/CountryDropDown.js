@@ -35,7 +35,7 @@ export default (props)=>{
           setOpen(false);
         } );
 
-        setTimeout (()=>{alert("Welcome! any result with zero can also mean that daily update for that country hasn't been published yet!")} ,3500);
+        setTimeout (()=>{alert("Welcome! If your country hasn't forecasted it's daily update yet, new death and new confirmed cases will be shown zero.")} ,3500);
         
       }, []);
    const setCountryStatusHandler =( CountryCode ,title)=> {
