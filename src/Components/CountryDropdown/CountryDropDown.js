@@ -10,16 +10,7 @@ export default (props)=>{
     const [countryStatus,setCountryStatus ] = useState(null);
     const ref = useRef();
 
-const tempAlert =(msg,duration)=>
-{
- var el = document.createElement("div");
- el.setAttribute("style","position:absolute;top:40%;left:30%;height:120px;width:150px;border:1px solid gray;padding:5%;background-color:gray;");
- el.innerHTML = msg;
- setTimeout(function(){
-  el.parentNode.removeChild(el);
- },duration);
- document.body.appendChild(el);
-}
+
 
     useEffect(() => {
 
@@ -44,7 +35,7 @@ const tempAlert =(msg,duration)=>
           setOpen(false);
         } );
 
-        setTimeout (()=>{alert("result with zero can also mean that daily update for that country hasn't been published yet!")} ,2000);
+        setTimeout (()=>{alert("Welcome! any result with zero can also mean that daily update for that country hasn't been published yet!")} ,3500);
         
       }, []);
    const setCountryStatusHandler =( CountryCode ,title)=> {
