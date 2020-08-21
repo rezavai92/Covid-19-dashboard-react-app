@@ -14,9 +14,9 @@ return (
 
 
     <Card backColor="#b58707" header="Confirmed (Global)"
-     text1="New Confirmed :" 
+     //text1="New Confirmed :" 
      text2="Total Confirmed :" 
-     prop1={props.GlobSum.total_new_cases_today} 
+     //prop1={props.GlobSum.total_new_cases_today} 
     prop2={props.GlobSum.total_cases} 
     prop3 ={new Date().toDateString()} > </Card>
  
