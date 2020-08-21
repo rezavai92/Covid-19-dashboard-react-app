@@ -1,7 +1,10 @@
 body {
 
 
-  background-image : url('cov.jpeg');
+  background-image : url('covidback2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   
   
 }

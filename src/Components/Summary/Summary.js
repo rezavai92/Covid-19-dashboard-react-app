@@ -21,8 +21,9 @@ return (
     prop3 ={new Date().toDateString()} > </Card>
  
   <Card backColor="#c70404" header="Deaths (Global)" 
-   text1="New Deaths :" text2="Total Deaths :"
-   prop1={props.GlobSum.total_new_deaths_today} 
+  // text1="New Deaths :" 
+   text2="Total Deaths :"
+  // prop1={props.GlobSum.total_new_deaths_today} 
     prop2={props.GlobSum.total_deaths} 
     prop3 ={new Date().toDateString()} > </Card>
 
